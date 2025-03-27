@@ -77,37 +77,34 @@ const Container22211 = ({ className = "" }) => {
         ">
           <Link 
             to="/" 
-            className="w-full sm:w-auto"
+            className="no-underline w-full sm:w-auto hover:text-primary transition-colors"
             onClick={closeMenu}
           >
-            <div className="relative leading-[150%] hover:text-primary transition-colors">Home</div>
+            Home
           </Link>
           
           <Link 
             to="/about-us" 
-            className="w-full sm:w-auto"
+            className="no-underline w-full sm:w-auto hover:text-primary transition-colors"
             onClick={closeMenu}
           >
-            <div className="relative leading-[150%] hover:text-primary transition-colors">About Us</div>
+            About Us
           </Link>
           
           <Link 
             to="/services" 
-            className="w-full sm:w-auto"
+            className="no-underline w-full sm:w-auto hover:text-primary transition-colors"
             onClick={closeMenu}
           >
-            <div className="relative leading-[150%] hover:text-primary transition-colors">Services</div>
+            Services
           </Link>
           
           <Link 
             to="/contact" 
-            className="w-full sm:w-auto relative group"
+            className="no-underline w-full sm:w-auto hover:text-primary transition-colors"
             onClick={closeMenu}
           >
-            <div className="flex items-center justify-center gap-1">
-              <div className="relative leading-[150%] hover:text-primary transition-colors">Contact Us</div>
-              <div className="w-6 h-6 overflow-hidden shrink-0" />
-            </div>
+            Contact Us
           </Link>
         </div>
 

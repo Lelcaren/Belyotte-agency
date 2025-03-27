@@ -139,20 +139,21 @@ const Map1321 = ({ className = "" }) => {
           </div>
         </div>
 
-        {/* Image Column - Now visible on all screen sizes */}
-        <img
+        {/* Google Maps Embed Column */}
+        <iframe
           className="
             w-full 
             md:w-[832px] 
-            h-auto 
-            object-cover 
+            h-[450px] 
             rounded-lg
             mt-6 md:mt-0
           "
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.733248043060!2d151.2073463!3d-33.8688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3a6463f645%3A0x5017224a94f97c0!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1234567890"
+          style={{ border: 0 }}
+          allowFullScreen=""
           loading="lazy"
-          alt="Contact Placeholder"
-          src="/placeholder-image@2x.png"
-        />
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </section>
   );
